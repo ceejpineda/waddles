@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
     <div class="bg-blue-400 h-screen w-screen">
@@ -32,8 +32,8 @@
                                 </div>
                             </form>
                             <div class="text-center mt-4">
-                                <a class="no-underline hover:underline text-blue-dark text-xs" href="#">
-                                    Forgot Your Password?
+                                <a class="no-underline hover:underline text-blue-dark text-xs" href="/register">
+                                    Register
                                 </a>
                             </div>
                         </div>

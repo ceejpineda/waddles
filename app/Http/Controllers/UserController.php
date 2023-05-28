@@ -10,4 +10,19 @@ class UserController extends Controller
     {
         return view('user');
     }
+
+    public function show()
+    {
+        return view('user/{id}');
+    }
+
+    public function register()
+    {
+        return view('register');
+    }
+
+    public function create()
+    {
+        
+    }
 }
